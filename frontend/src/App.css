@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  margin-bottom: 40px;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #000;
+}
+
+.input-section button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.input-section button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ff6b6b;
+  margin-bottom: 20px;
+}
+
+.results-section table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.results-section th,
+.results-section td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.results-section th {
+  background-color: #444;
+}
+
+.vulnerable {
+  background-color: #ffdddd;
+  color: #d8000c;
+}
+
+.safe {
+  background-color: #ddffdd;
+  color: #4f8a10;
+}
