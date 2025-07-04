@@ -18,7 +18,7 @@ function App() {
 
         try {
             // The backend is running on localhost:3001
-            const res = await fetch(`http://localhost:3001/check/${address}`);
+            const res = await fetch(`https://quantum-vuln-checker.onrender.com/check/${address}`);
             if (!res.ok) {
                 const errData = await res.json();
                 throw new Error(errData.error || `HTTP error! status: ${res.status}`);
